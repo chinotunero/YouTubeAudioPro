@@ -24,7 +24,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew assembleDebug --stacktrace
       Commit message: Add GitHub Actions to build APK
-Description: Compila automáticamente la app
+      Description: Compila automáticamente la app
     - name: Upload APK
       uses: actions/upload-artifact@v3
       with:
